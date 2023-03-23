@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    text-align: center;
+}
+
+.burger {
+    width: 12%;
+    min-width: 80px;
+    padding-left: 10px;
+}
+
+.home {
+    height: 75px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.home:hover {
+    font-weight: bold;
+}
+
+.sign-up {
+    width: 12%;
+    min-width: 80px;
+    padding-right: 10px;
+}
+
+.place h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ranking {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(6, 27, 85);
+    color: white;
+}
+
+.alignment {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    width: 30%;
+    height: 650px;
+    position: relative;
+    margin: 5% 5%;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+    border: 1px solid black;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.inner-img {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(roryimg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.needs-spacing {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.stats {
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.stats td {
+    border: 1px solid black;
+}
+
+.white {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.even {
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.even input {
+    position: relative;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+}
+
+.nine {
+    margin: 5% auto;
+    width: auto;
+    height: 80px;
+}
+
+.final {
+    margin-bottom: 0;
+}
+
+.start {
+    position: relative;
+    height: 80px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 30px;
+    margin: 5% auto;
+    box-shadow: 1px 1px white, 4px 6px black;
+    border: 1px solid black;
+}
+
+.start:active {
+    box-shadow: -1px -1px white, -5px -3px black;
+    font-size: 29px;
+}
+
+.form {
+    padding-top: 10px;
+    position: relative;
+    min-height: 600px;
+    padding-bottom: 1%;
+    width: 60%;
+    background-color: black;
+    display: none;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.sub-header {
+    margin: 5% auto;
+    color: white;
+    text-align: center;
+}
+
+.even {
+    text-align: center;
+}
+
+.even, .white, .nine{
+    border: 1px solid white;
+}
+
+.submit {
+    display: block;
+    height: 80px;
+    width: 20%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.submit:hover {
+    font-weight: bold;
+}
+
+.field {
+    height: 240px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.field, .field tr, .field tr td {
+    border: 1px solid black;
+}
+
+.blank {
+    margin-bottom: 5%;
+}
+
+.evened {
+    text-align: center;
+    height: 80px;
+}
+
+.turn {
+    height: 100px;
+    width: 20%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px white, 4px 6px black;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.turn:active {
+    box-shadow: -1px -1px white, -5px -3px black;
+    font-size: 29px;
+}
+
+.space {
+    margin: 5% 0;
+}
+
+.you, .front-you {
+    width: 60%;
+}
+
+.displaying {
+    display: none;
+}
+
+.contained {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px){
+    .container {
+        display: block;
+    }
+    .container div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img {
+        width: 400px;
+    }
+    .center {
+        min-width: 400px;
+    }
+    .home {
+        font-size: 16px;
+    }
+    .form {
+        padding-bottom: 2.5%;
+    }
+}
