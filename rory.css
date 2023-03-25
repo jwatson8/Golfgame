@@ -129,11 +129,13 @@ td {
     margin-right: auto;
 }
 
-.even input {
-    position: relative;
-    top: 50%;
-    left: 34%;
-    transform: translate(-50%, -50%);
+.even {
+    display: grid;
+    place-items: center;
+}
+
+.home, .start {
+    color: black;
 }
 
 .nine {
@@ -245,7 +247,7 @@ td {
     margin: 5% 0;
 }
 
-.you, .front-you {
+.you, .front-you, .front {
     width: 60%;
 }
 
@@ -262,6 +264,12 @@ td {
 @media screen and (max-width: 900px){
     .container {
         display: block;
+    }
+    .img {
+        max-width: 300px;
+    }
+    .inner-img {
+        height: 34%;
     }
     .container div {
         margin-left: auto;
