@@ -127,9 +127,6 @@ td {
     width: 80px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.even {
     display: grid;
     place-items: center;
 }
