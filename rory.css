@@ -276,7 +276,7 @@ td {
         width: 400px;
     }
     .center {
-        min-width: 400px;
+        max-width: 400px;
     }
     .home {
         font-size: 16px;
